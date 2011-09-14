@@ -1,6 +1,6 @@
 {
 	"name": "giraffi",
-	"description": "A client implementation for Giraffi cloud Monitoring-as-a-Service Logger API",
+	"description": "A client implementation for Giraffi cloud Monitoring-as-a-Service Log API",
 	"version": "0.1.1",
 	"author": "azukiwasher",
 	"dependencies": {
