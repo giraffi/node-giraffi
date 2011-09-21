@@ -9,8 +9,8 @@ var giraffi = require('../lib/giraffi')
 
 // configuration
 var config = {
-  host: "localhost:8004",
-  apikey: "12345"
+  host: "localhost:3000",
+  apikey: "1234567890"
 };
 
 // create a client object
@@ -18,6 +18,6 @@ var client = giraffi.createClient(config);
 
 // start searching with "log message"
 // level() method is optional
-client.level('error').search('log message', function (err, results) {
+client.level('info').search('', function (err, results) {
   console.log("results: ", results);
 });

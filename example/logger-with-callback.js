@@ -9,7 +9,7 @@ var giraffi = require('../lib/giraffi')
 
 // configuration
 var config = {
-  host: "localhost:8004",
+  host: "localhost:3000",
   apikey: "12345"
 };
 
