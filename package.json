@@ -10,6 +10,7 @@
 		"pkginfo": "0.2.x",
 		"vows": "0.5.x",
 		"wordwrap": "0.0.2"
+		"request": "1.9.x"
 	},
   "scripts": {
     "test": "vows test/*-test.js"
