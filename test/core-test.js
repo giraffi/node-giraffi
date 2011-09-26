@@ -57,14 +57,14 @@ vows.describe('node-giraffi/core').addBatch({
       }
     }
   },
-  "When using the search() method" : {
+  "When using the retrieve() method" : {
 
     "with a valid query" : {
       "when no setting a log level" : {
         topic: function () {
-          giraffi.search('foo bar hoge', this.callback);
+          giraffi.retrieve('foo bar hoge', this.callback);
         },
-       "should get search results" : function (err, results) {
+       "should get retrieve results" : function (err, results) {
           assert.isNull(err);
           assert.isObject(results);
           assert.isTrue(typeof results._id !== 'undefined');
@@ -73,9 +73,9 @@ vows.describe('node-giraffi/core').addBatch({
       },
       "when setting a log level" : {
         topic: function () {
-          giraffi.level('info').search('foo bar hoge', this.callback);
+          giraffi.level('info').retrieve('foo bar hoge', this.callback);
         },
-       "should get search results" : function (err, results) {
+       "should get retrieve results" : function (err, results) {
           assert.isNull(err);
           assert.isObject(results);
           assert.isTrue(typeof results._id !== 'undefined');
