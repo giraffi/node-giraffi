@@ -1,9 +1,15 @@
 {
 	"name": "giraffi",
 	"description": "A client implementation for Giraffi cloud Monitoring-as-a-Service Log API",
-	"version": "0.1.1",
+	"version": "0.1.3",
 	"author": "azukiwasher",
-	"dependencies": {
+  "scripts": {
+    "test": "vows test/*-test.js"
+  },
+	"repository": "git@git1.xenzai.com:mxenzai/node-giraffi.git",
+	"main": "./index.js",
+	"engines": {"node": ">= 0.4.x"},
+  "dependencies": {
 		"colors": "0.5.x",
 		"eyes": "0.1.x",
 		"optimist": "0.2.x",
@@ -11,11 +17,5 @@
 		"vows": "0.5.x",
 		"wordwrap": "0.0.2",
 		"request": "1.9.x"
-	},
-  "scripts": {
-    "test": "vows test/*-test.js"
-  },
-	"repository": "git@git1.xenzai.com:mxenzai/node-giraffi.git",
-	"main": "./lib/node-giraffi",
-	"engines": {"node": ">= 0.4.11"}
+	}
 }
