@@ -14,7 +14,7 @@ Usage
 
 __Setup__
 
-First, setup a applog server(e.g. [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on your localhost.
+First, setup a applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on your localhost.
 
      git clone git://github.com/giraffi/giraffi-applog.git giraffi-applog
      cd giraffi-applog/
