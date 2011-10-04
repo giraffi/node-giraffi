@@ -66,4 +66,4 @@ To retrieve logs:
      });
 
 
-Please see `example/logger.js` in `node-giraffi` package for how to post logs and `example/retrieve.js` for how to get logs.
+Please see `example/logger.js` for how to post logs and `example/retrieve.js` for how to get logs.
