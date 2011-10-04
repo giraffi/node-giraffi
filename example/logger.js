@@ -4,20 +4,18 @@
  *
  */
 
-// Lib dependencies
+// Load giraffi
 var giraffi = require('../lib/giraffi')
   , util = require('util');
 
-// Configuration
+// Setup a applog server
 var config = {
   host: "localhost:3000"
 };
 
-// Create a client object
+// Create a client object and start posting logs
 var client = giraffi.createClient(config);
 
-// Start logging with a callback function
-// the `level()` method is optional
-client.level('info').logger("hoge hoge log message", function (err, result) {
+client.level('info').logger("foo bar hoge", function (err, result) {
   console.log("result: ", result);
 });

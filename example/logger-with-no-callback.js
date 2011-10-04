@@ -4,19 +4,16 @@
  *    This client doesn't use a callback function.
  */
 
-// Lib dependencies
+// Load giraffi
 var giraffi = require('../lib/giraffi')
   , util = require('util');
 
-// Configuration
+// Setup a applog server
 var config = {
   host: "localhost:3000",
   apikey: "12345"
 };
 
-// Create a `client` object
+// Create a client object and start posting logs 
 var client = giraffi.createClient(config);
-
-// Start logging with no callback function.
-// `level()` method is optional.
-client.level('info').logger('123456789ABCDEFG');
+client.level('info').logger('foo bar hoge');
