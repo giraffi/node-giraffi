@@ -67,4 +67,4 @@ To retrieve logs:
      });
 
 
-Please see `example/logger.js` for how to post logs and `example/retrieve.js` for how to get logs.
+Please see `example/logger.js` and `example/logger-with-no-callback.js` for how to post logs and `example/retrieve.js` for how to get logs.
