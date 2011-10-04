@@ -36,7 +36,7 @@ To post logs:
      var giraffi = require('giraffi')
        , util = require('util');
 
-     // Setup a applog server
+     // Define a applog server
      var config = {
        host: "localhost:3000"
      };
@@ -53,7 +53,7 @@ To retrieve logs:
      var giraffi = require('../lib/giraffi')
        , util = require('util');
 
-     // Setup a applog server
+     // Define a applog server
      var config = {
        host: "localhost:3000"
      };
