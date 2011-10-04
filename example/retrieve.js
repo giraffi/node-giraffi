@@ -1,6 +1,6 @@
 /*
  * retrieve.js
- *  A sample client that retrieve logs from Giraffi Applog Server.
+ *    A sample client that retrieve logs from Applog server.
  */
 
 // Lib dependencies
@@ -15,13 +15,6 @@ var config = {
 
 // Create client object
 var client = giraffi.createClient(config);
-
-// Start retrieving logs
-//
-// `level()` and `limit()` method are optional.
-
-// default limit value : 10 
-// max limit value : 100
 
 client.level('info').limit(5).retrieve('', function (err, results) {
   console.log("results: ", results);

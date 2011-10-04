@@ -1,6 +1,6 @@
 /*
- *  helper.js: A set of helper methods
- *
+ * helper.js
+ *    A set of helper methods
  */
 
 var fs = require('fs')
@@ -11,21 +11,11 @@ var fs = require('fs')
   , giraffi = require('../lib/giraffi');
 
 var helper = exports;
-helper.checkConfig = function (config) {
-  return config
-      && config.host !== 'localhost:8000'
-      && config.apikey !== '1234567890';
-};
 
 helper.parseConfig = function () {
   try {
     var configFile = path.join(__dirname, 'fixtures', 'test-config.json')
       , config = JSON.parse(fs.readFileSync(configFile).toString());
-
-    if (!helper.checkConfig(config)) {
-      util.puts("Test config file is not valid");
-      process.exit(0);
-    }
 
     helper.config = config || {};
     return config || {};

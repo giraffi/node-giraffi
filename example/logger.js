@@ -1,6 +1,6 @@
 /*
  * logger.js
- *   A sample client that posts logs to Giraffi Applog Server.
+ *    A sample client that posts logs to the Applog Server.
  *
  */
 
@@ -19,6 +19,6 @@ var client = giraffi.createClient(config);
 
 // Start logging with a callback function
 // the `level()` method is optional
-client.level('info').logger("log message", function (err, result) {
+client.level('info').logger("hoge hoge log message", function (err, result) {
   console.log("result: ", result);
 });
