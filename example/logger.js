@@ -10,8 +10,7 @@ var giraffi = require('../lib/giraffi')
 
 // Configuration
 var config = {
-  host: "localhost:3000",
-  apikey: "12345"
+  host: "localhost:3000"
 };
 
 // Create a client object
