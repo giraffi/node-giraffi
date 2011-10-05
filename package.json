@@ -1,21 +1,16 @@
 {
 	"name": "giraffi",
 	"description": "A pretty client that posts and retrieves your app logs",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": "azukiwasher",
-  "scripts": {
-    "test": "vows test/*-test.js"
-  },
 	"repository": "git@github.com:giraffi/node-giraffi.git",
 	"main": "./index.js",
-	"engines": {"node": ">= 0.4.x"},
   "dependencies": {
-		"colors": "0.5.x",
-		"eyes": "0.1.x",
-		"optimist": "0.2.x",
-		"pkginfo": "0.2.x",
-		"vows": "0.5.x",
-		"wordwrap": "0.0.2",
 		"request": "1.9.x"
-	}
+	},
+  "devDependencies": {
+		"vows": "0.5.x"
+  },
+  "scripts": { "test": "vows test/*-test.js --spec" },
+	"engines": { "node": ">= 0.4.x" }
 }
