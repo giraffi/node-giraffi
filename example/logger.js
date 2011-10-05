@@ -9,7 +9,8 @@ var giraffi = require('../lib/giraffi');
 
 // Define a applog server
 var config = {
-  host: "localhost:3000"
+  host: "localhost:3000",
+  ssl: false
 };
 
 // Create a client object and start posting logs

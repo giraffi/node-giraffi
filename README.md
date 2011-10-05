@@ -14,7 +14,7 @@ Usage
 
 __Setup__
 
-First, setup a applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on your localhost.
+First, setup a applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on localhost.
 
      git clone git://github.com/giraffi/giraffi-applog.git giraffi-applog
      cd giraffi-applog/
@@ -30,14 +30,15 @@ Then install `node-giraffi` using `npm`.
      
 __Start logging__
 
-To post logs:
+Wanna post logs?
      
      // Load giraffi
      var giraffi = require('giraffi');
 
-     // Define a applog server
+     // Configure your applog server
      var config = {
-       host: "localhost:3000"
+       host: "localhost:3000",
+       ssl: false
      };
 
      // Create a client object and start posting logs 
@@ -47,14 +48,15 @@ To post logs:
        console.log("result: ", result);
      });
  
-To retrieve logs:
+Wanna grab logs?
 
      // Load giraffi
      var giraffi = require('giraffi');
 
-     // Define a applog server
+     // Configure your applog server
      var config = {
-       host: "localhost:3000"
+       host: "localhost:3000",
+       ssl: false
      };
 
      // Create a client object and start retrieving logs

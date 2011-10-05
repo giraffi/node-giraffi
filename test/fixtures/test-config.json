@@ -1,4 +1,5 @@
 {
   "host": "localhost:3000",
+  "ssl": false,
   "apikey": "abc56754"
 }
