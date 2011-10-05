@@ -4,8 +4,7 @@
  */
 
 // Load giraffi
-var giraffi = require('../lib/giraffi')
-  , util = require('util');
+var giraffi = require('../lib/giraffi');
 
 // Setup a applog server
 var config = {
