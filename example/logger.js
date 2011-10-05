@@ -1,13 +1,13 @@
 /*
  * logger.js
- *    A sample client that posts logs to the Applog Server.
+ *    A sample client that posts logs to your Applog Server.
  *
  */
 
 // Load giraffi
 var giraffi = require('../lib/giraffi');
 
-// Setup a applog server
+// Define a applog server
 var config = {
   host: "localhost:3000"
 };
