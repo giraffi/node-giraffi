@@ -1,6 +1,6 @@
 /*
  * retrieve.js
- *    A sample client that retrieve logs from your Applog server.
+ *    A sample client that retrieve logs from your Applog Server.
  */
 
 // Load giraffi
