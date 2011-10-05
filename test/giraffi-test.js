@@ -64,7 +64,7 @@ vows.describe('node-giraffi/lib/giraffi').addBatch({
         topic: function () {
           giraffi.level('info').retrieve('foo', this.callback);
         },
-       "should retrieve all the results whose level is 'info' and message contains the word 'foo'" : function (err, results) {
+       "should retrieve all the results whose level is 'info' and message contains the string 'foo'" : function (err, results) {
           assert.isNull(err);
           assert.isArray(results);
           assert.equal(results[0].level, 'info');
@@ -75,7 +75,7 @@ vows.describe('node-giraffi/lib/giraffi').addBatch({
         topic: function () {
           giraffi.retrieve('foo', this.callback);
         },
-       "should retrieve all the results containing the word 'foo' in the 'message'" : function (err, results) {
+       "should retrieve all the results containing the string 'foo' in the 'message'" : function (err, results) {
           assert.isNull(err);
           assert.isArray(results);
           assert.match(results[0].message, /foo/);
@@ -85,7 +85,7 @@ vows.describe('node-giraffi/lib/giraffi').addBatch({
         topic: function () {
           giraffi.limit(1).retrieve('foo', this.callback);
         },
-       "should retrieve only 1 result containing the word 'foo' in the 'message'" : function (err, results) {
+       "should retrieve only 1 result containing the string 'foo' in the 'message'" : function (err, results) {
           assert.isNull(err);
           assert.isArray(results);
           assert.length(results, 1);
