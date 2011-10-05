@@ -8,7 +8,7 @@ Requirements
 
 * Node.js 0.4.11 or higher
 * Applog server (e.g. [giraffi-applog](https://github.com/giraffi/giraffi-applog))
-* See [Requirement](https://github.com/giraffi/giraffi-applog)) if you use `giraffi-applog` 
+* See [Requirements](https://github.com/giraffi/giraffi-applog) if you use `giraffi-applog` 
 
 Usage
 ---------------
