@@ -60,7 +60,7 @@ To retrieve logs:
      // Create a client object and start retrieving logs
      var client = giraffi.createClient(config);
 
-     // Retrieve '5' logs whose level is 'info' and message contains the word 'foo'
+     // Retrieve '5' logs whose level is 'info' and message contains the string 'foo'
      client.level('info').limit(5).retrieve('foo', function (err, results) {
        console.log("results: ", results);
      });
