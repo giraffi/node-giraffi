@@ -33,8 +33,7 @@ __Start logging__
 To post logs:
      
      // Load giraffi
-     var giraffi = require('giraffi')
-       , util = require('util');
+     var giraffi = require('giraffi');
 
      // Define a applog server
      var config = {
@@ -50,8 +49,7 @@ To post logs:
 To retrieve logs:
 
      // Load giraffi
-     var giraffi = require('../lib/giraffi')
-       , util = require('util');
+     var giraffi = require('giraffi');
 
      // Define a applog server
      var config = {
