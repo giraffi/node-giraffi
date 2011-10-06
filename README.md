@@ -15,7 +15,7 @@ Usage
 
 __Setup__
 
-First, setup a applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on localhost. `rake test` is optional.
+First, setup a applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on localhost. Running `rake test` is optional.
 
      git clone git://github.com/giraffi/giraffi-applog.git giraffi-applog
      cd giraffi-applog/
@@ -80,6 +80,6 @@ You must run a applog server on your local port 3000 or other(please edit `test/
 
 Thanks
 ---------------
-`node-giraffi` is written with node.js, strongly inspired by [node-loggly](https://github.com/nodejitsu/node-loggly.git).
+`node-giraffi` is written is JavaScript and strongly inspired by [node-loggly](https://github.com/nodejitsu/node-loggly.git).
 
 
