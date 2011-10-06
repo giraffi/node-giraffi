@@ -80,6 +80,6 @@ You must run a applog server on your local port 3000 or other(please edit `test/
 
 Thanks
 ---------------
-`node-giraffi` is written is JavaScript and strongly inspired by [node-loggly](https://github.com/nodejitsu/node-loggly.git).
+`node-giraffi` is written in JavaScript and strongly inspired by [node-loggly](https://github.com/nodejitsu/node-loggly.git).
 
 
