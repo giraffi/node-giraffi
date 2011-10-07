@@ -71,7 +71,7 @@ Wanna grab logs?
 
 Please see `example/logger.js` and `example/logger-with-no-callback.js` for how to post logs and `example/retrieve.js` for how to get logs.
 
-To run tests to check compliance
+Run tests
 ---------------
 
 You must run an applog server on your local port 3000 or other(please edit `test/fixtures/test-config.json`) before running tests. All of the tests are written in [Vows](http://vowsjs.org/).
