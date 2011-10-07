@@ -14,7 +14,7 @@ Usage
 ---------------
 
 __Setup__
-=======
+
 First, set up an applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on localhost. Running `rake test` is optional.
 
      git clone git://github.com/giraffi/giraffi-applog.git giraffi-applog
