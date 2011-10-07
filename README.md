@@ -15,7 +15,7 @@ Usage
 
 __Setup__
 
-First, setup a applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on localhost. Running `rake test` is optional.
+First, setup an applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on localhost. Running `rake test` is optional.
 
      git clone git://github.com/giraffi/giraffi-applog.git giraffi-applog
      cd giraffi-applog/
@@ -71,10 +71,10 @@ Wanna grab logs?
 
 Please see `example/logger.js` and `example/logger-with-no-callback.js` for how to post logs and `example/retrieve.js` for how to get logs.
 
-Run tests
+To run tests to check compliance
 ---------------
 
-You must run a applog server on your local port 3000 or other(please edit `test/fixtures/test-config.json`) before running tests. All of the tests are written in [Vows](http://vowsjs.org/).
+You must run an applog server on your local port 3000 or other(please edit `test/fixtures/test-config.json`) before running tests. All of the tests are written in [Vows](http://vowsjs.org/).
    
      npm test giraffi
 
