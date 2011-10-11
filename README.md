@@ -44,6 +44,7 @@ Wanna post logs?
 
      // Create a client object and start posting logs 
      var client = giraffi.createClient(config);
+     
      // Post a log whose level is 'info' and message is 'foo bar hoge'
      client.level('info').logger("foo bar hoge", function (err, result) {
        console.log("result: ", result);
