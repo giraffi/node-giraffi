@@ -6,7 +6,8 @@
 	"repository": "git://github.com/giraffi/node-giraffi.git",
 	"main": "./index.js",
   "dependencies": {
-		"request": "1.9.x"
+		"request": "1.9.x",
+		"pkginfo": "0.2.x"
 	},
   "devDependencies": {
 		"vows": "0.5.x"
