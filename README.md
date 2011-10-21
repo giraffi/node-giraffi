@@ -15,7 +15,7 @@ Usage
 
 __Setup__
 
-First, setup an applog server(here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on localhost. Running `rake test` is optional.
+First, set up an applog server (here we use [giraffi-applog](https://github.com/giraffi/giraffi-applog)) on localhost. Running `rake test` is optional.
 
      git clone git://github.com/giraffi/giraffi-applog.git giraffi-applog
      cd giraffi-applog/
@@ -44,6 +44,7 @@ Wanna post logs?
 
      // Create a client object and start posting logs 
      var client = giraffi.createClient(config);
+     
      // Post a log whose level is 'info' and message is 'foo bar hoge'
      client.level('info').logger("foo bar hoge", function (err, result) {
        console.log("result: ", result);
@@ -74,12 +75,10 @@ Please see `example/logger.js` and `example/logger-with-no-callback.js` for how 
 Run tests
 ---------------
 
-You must run an applog server on your local port 3000 or other(please edit `test/fixtures/test-config.json`) before running tests. All of the tests are written in [Vows](http://vowsjs.org/).
+You must run an applog server on your local port 3000 or other (please edit `test/fixtures/test-config.json`) before running tests. All of the tests are written in [Vows](http://vowsjs.org/).
    
      npm test giraffi
 
 Thanks
 ---------------
 `node-giraffi` is written in JavaScript and strongly inspired by [node-loggly](https://github.com/nodejitsu/node-loggly).
-
-
