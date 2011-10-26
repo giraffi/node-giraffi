@@ -1,7 +1,7 @@
 {
 	"name": "giraffi",
 	"description": "A small client that posts and retrieves your app logs",
-	"version": "0.1.7",
+	"version": "0.2.1",
 	"author": "azukiwasher",
   "contributors": ["sutetotanuki"],
 	"repository": "git://github.com/giraffi/node-giraffi.git",
