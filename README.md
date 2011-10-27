@@ -82,4 +82,4 @@ You must run an applog server on your local port 3000 or other (please edit `tes
 Thanks
 ---------------
 `node-giraffi` is written in JavaScript and heavily inspired by [node-loggly](https://github.com/nodejitsu/node-loggly).
-`node-giraffi`  
+[Node Ninja](https://node-ninja.com/) handles logging for users' dev activities using `node-giraffi`.
