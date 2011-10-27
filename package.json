@@ -1,7 +1,7 @@
 {
 	"name": "giraffi",
 	"description": "A small client that posts and retrieves your app logs",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"author": "azukiwasher",
   "contributors": [
     { "name": "azukiwasher", "email": "azukiwasher@higanworks.com" },
