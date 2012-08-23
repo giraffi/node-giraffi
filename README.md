@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/giraffi/node-giraffi.png)](http://travis-ci.org/giraffi/node-giraffi)
 node-giraffi
 ============
 
